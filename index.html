@@ -10,7 +10,16 @@
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
-
+    <br/>
+    <button id="dateButton">Date</button>
+    <br/>
+    <div>Exit code:</div><div id="exitcode"></div>
+    <br/>
+    <div>Stdout:</div>
+    <div id="stdout"></div>
+    <br/>
+    <div>Stderr:</div>
+    <div id="stderr"></div>
     <script>
       // You can also require other files to run in this process
       require('./renderer.js')
